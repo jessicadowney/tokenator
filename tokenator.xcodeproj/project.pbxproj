@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F5F95621B7E5BBE002E1BCF /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5F95611B7E5BBE002E1BCF /* Main.swift */; };
+		D80ED6011B690CD50011DA16 /* setCost.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80ED6001B690CD50011DA16 /* setCost.swift */; };
+		D8DFCD981B66583E00EB6574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DFCD971B66583E00EB6574 /* AppDelegate.swift */; };
+		D8DFCD9A1B66583E00EB6574 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DFCD991B66583E00EB6574 /* ViewController.swift */; };
+		D8DFCD9D1B66583E00EB6574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DFCD9B1B66583E00EB6574 /* Main.storyboard */; };
+		D8DFCD9F1B66583E00EB6574 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DFCD9E1B66583E00EB6574 /* Images.xcassets */; };
+		D8DFCDA21B66583E00EB6574 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8DFCDA01B66583E00EB6574 /* LaunchScreen.xib */; };
+		D8DFCDAE1B66583E00EB6574 /* tokenatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DFCDAD1B66583E00EB6574 /* tokenatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8DFCDA81B66583E00EB6574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8DFCD8A1B66583E00EB6574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8DFCD911B66583E00EB6574;
+			remoteInfo = tokenator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F5F95611B7E5BBE002E1BCF /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Main.swift; path = ../Main.swift; sourceTree = "<group>"; };
+		D80ED6001B690CD50011DA16 /* setCost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = setCost.swift; path = ../setCost.swift; sourceTree = "<group>"; };
+		D8DFCD921B66583E00EB6574 /* tokenator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tokenator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DFCD961B66583E00EB6574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8DFCD971B66583E00EB6574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8DFCD991B66583E00EB6574 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8DFCD9C1B66583E00EB6574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8DFCD9E1B66583E00EB6574 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8DFCDA11B66583E00EB6574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D8DFCDA71B66583E00EB6574 /* tokenatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tokenatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DFCDAC1B66583E00EB6574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8DFCDAD1B66583E00EB6574 /* tokenatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tokenatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8DFCD8F1B66583E00EB6574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DFCDA41B66583E00EB6574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8DFCD891B66583E00EB6574 = {
+			isa = PBXGroup;
+			children = (
+				D8DFCD941B66583E00EB6574 /* tokenator */,
+				D8DFCDAA1B66583E00EB6574 /* tokenatorTests */,
+				D8DFCD931B66583E00EB6574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8DFCD931B66583E00EB6574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8DFCD921B66583E00EB6574 /* tokenator.app */,
+				D8DFCDA71B66583E00EB6574 /* tokenatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8DFCD941B66583E00EB6574 /* tokenator */ = {
+			isa = PBXGroup;
+			children = (
+				2F5F95611B7E5BBE002E1BCF /* Main.swift */,
+				D80ED6001B690CD50011DA16 /* setCost.swift */,
+				D8DFCD971B66583E00EB6574 /* AppDelegate.swift */,
+				D8DFCD991B66583E00EB6574 /* ViewController.swift */,
+				D8DFCD9B1B66583E00EB6574 /* Main.storyboard */,
+				D8DFCD9E1B66583E00EB6574 /* Images.xcassets */,
+				D8DFCDA01B66583E00EB6574 /* LaunchScreen.xib */,
+				D8DFCD951B66583E00EB6574 /* Supporting Files */,
+			);
+			path = tokenator;
+			sourceTree = "<group>";
+		};
+		D8DFCD951B66583E00EB6574 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8DFCD961B66583E00EB6574 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8DFCDAA1B66583E00EB6574 /* tokenatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8DFCDAD1B66583E00EB6574 /* tokenatorTests.swift */,
+				D8DFCDAB1B66583E00EB6574 /* Supporting Files */,
+			);
+			path = tokenatorTests;
+			sourceTree = "<group>";
+		};
+		D8DFCDAB1B66583E00EB6574 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8DFCDAC1B66583E00EB6574 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8DFCD911B66583E00EB6574 /* tokenator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8DFCDB11B66583E00EB6574 /* Build configuration list for PBXNativeTarget "tokenator" */;
+			buildPhases = (
+				D8DFCD8E1B66583E00EB6574 /* Sources */,
+				D8DFCD8F1B66583E00EB6574 /* Frameworks */,
+				D8DFCD901B66583E00EB6574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tokenator;
+			productName = tokenator;
+			productReference = D8DFCD921B66583E00EB6574 /* tokenator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8DFCDA61B66583E00EB6574 /* tokenatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8DFCDB41B66583E00EB6574 /* Build configuration list for PBXNativeTarget "tokenatorTests" */;
+			buildPhases = (
+				D8DFCDA31B66583E00EB6574 /* Sources */,
+				D8DFCDA41B66583E00EB6574 /* Frameworks */,
+				D8DFCDA51B66583E00EB6574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8DFCDA91B66583E00EB6574 /* PBXTargetDependency */,
+			);
+			name = tokenatorTests;
+			productName = tokenatorTests;
+			productReference = D8DFCDA71B66583E00EB6574 /* tokenatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8DFCD8A1B66583E00EB6574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "jessica downey";
+				TargetAttributes = {
+					D8DFCD911B66583E00EB6574 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D8DFCDA61B66583E00EB6574 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D8DFCD911B66583E00EB6574;
+					};
+				};
+			};
+			buildConfigurationList = D8DFCD8D1B66583E00EB6574 /* Build configuration list for PBXProject "tokenator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8DFCD891B66583E00EB6574;
+			productRefGroup = D8DFCD931B66583E00EB6574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8DFCD911B66583E00EB6574 /* tokenator */,
+				D8DFCDA61B66583E00EB6574 /* tokenatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8DFCD901B66583E00EB6574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DFCD9D1B66583E00EB6574 /* Main.storyboard in Resources */,
+				D8DFCDA21B66583E00EB6574 /* LaunchScreen.xib in Resources */,
+				D8DFCD9F1B66583E00EB6574 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DFCDA51B66583E00EB6574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8DFCD8E1B66583E00EB6574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80ED6011B690CD50011DA16 /* setCost.swift in Sources */,
+				D8DFCD9A1B66583E00EB6574 /* ViewController.swift in Sources */,
+				2F5F95621B7E5BBE002E1BCF /* Main.swift in Sources */,
+				D8DFCD981B66583E00EB6574 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DFCDA31B66583E00EB6574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DFCDAE1B66583E00EB6574 /* tokenatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8DFCDA91B66583E00EB6574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8DFCD911B66583E00EB6574 /* tokenator */;
+			targetProxy = D8DFCDA81B66583E00EB6574 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8DFCD9B1B66583E00EB6574 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8DFCD9C1B66583E00EB6574 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8DFCDA01B66583E00EB6574 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8DFCDA11B66583E00EB6574 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8DFCDAF1B66583E00EB6574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8DFCDB01B66583E00EB6574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8DFCDB21B66583E00EB6574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = tokenator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jd.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8DFCDB31B66583E00EB6574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = tokenator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jd.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D8DFCDB51B66583E00EB6574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tokenatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jd.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tokenator.app/tokenator";
+			};
+			name = Debug;
+		};
+		D8DFCDB61B66583E00EB6574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tokenatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jd.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tokenator.app/tokenator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8DFCD8D1B66583E00EB6574 /* Build configuration list for PBXProject "tokenator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DFCDAF1B66583E00EB6574 /* Debug */,
+				D8DFCDB01B66583E00EB6574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8DFCDB11B66583E00EB6574 /* Build configuration list for PBXNativeTarget "tokenator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DFCDB21B66583E00EB6574 /* Debug */,
+				D8DFCDB31B66583E00EB6574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8DFCDB41B66583E00EB6574 /* Build configuration list for PBXNativeTarget "tokenatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DFCDB51B66583E00EB6574 /* Debug */,
+				D8DFCDB61B66583E00EB6574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8DFCD8A1B66583E00EB6574 /* Project object */;
+}
