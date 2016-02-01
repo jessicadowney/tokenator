@@ -67,10 +67,10 @@ class ViewController: UIViewController {
         
         let firstLaunch = NSUserDefaults.standardUserDefaults().boolForKey("FirstLaunch")
         if firstLaunch  {
-            print("Not first launch.")
+            print("Not first launch.", terminator: "")
         }
         else {
-            print("First launch, setting NSUserDefault.")
+            print("First launch, setting NSUserDefault.", terminator: "")
             NSUserDefaults.standardUserDefaults().setBool(true, forKey: "FirstLaunch")
         }
         

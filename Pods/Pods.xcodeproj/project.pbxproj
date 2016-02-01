@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		165244AE75779FAEAA05BF5A8F6CF526 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		45B28CDACD362CEF2CA6012BA0015DB6 /* OnboardingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A0550D800E96576B409635BE97830489 /* OnboardingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		494668CAA10B3CB681F1B1CC434076B3 /* Pods-tokenator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C638439AB77C5450C4D6F0EC7F9074D /* Pods-tokenator-dummy.m */; };
+		68601DD8D1367CD635712B9FF4797A9A /* Onboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF261E9B59C4B6A5D9253B4DAD043939 /* Onboard-dummy.m */; };
+		86BA959299BECF7B0314ECC08EC0614F /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C069D554638C2B2C9677377F246AB508 /* OnboardingViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8E55107B59A92876B44B690F74B121E7 /* Onboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C354FB9F00F19AAF83FF1342BE4562F /* Onboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7CAB6A267D1C5492BFF4BF29611E594 /* Pods-tokenator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC115D61B6D8685D320237A64917593 /* Pods-tokenator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6E011EAC995523734C90C4B3362D037 /* OnboardingContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E21037237F144F058B3D22E9F5E145 /* OnboardingContentViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D625D72E0872596014E3194252E3852C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		EF4066B0EEC6CF4D847A4C6810886BDA /* OnboardingContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B5D76BEB75C7DD3A96D6EF96F297B4 /* OnboardingContentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2D8284F967AFA0FC70E3B83EEB42864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7FF48F3092783E4E42B336F0DEF2D1A;
+			remoteInfo = Onboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DC115D61B6D8685D320237A64917593 /* Pods-tokenator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tokenator-umbrella.h"; sourceTree = "<group>"; };
+		30E21037237F144F058B3D22E9F5E145 /* OnboardingContentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OnboardingContentViewController.m; path = Source/OnboardingContentViewController.m; sourceTree = "<group>"; };
+		32DC1AB3B52B217A09CE055CDA3EF485 /* Pods-tokenator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-tokenator.modulemap"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39C042038DA04F71E9772BDF27523404 /* Onboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Onboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AF6164939E0265DB16E9474A884BCC /* Onboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Onboard.xcconfig; sourceTree = "<group>"; };
+		5C638439AB77C5450C4D6F0EC7F9074D /* Pods-tokenator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tokenator-dummy.m"; sourceTree = "<group>"; };
+		5F1D91796EBA167B111D2D2169E628FD /* Pods-tokenator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tokenator-resources.sh"; sourceTree = "<group>"; };
+		65129A8180AAE5E449FAD9E412E08641 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667A9E3DDC5D4A8DD781464F59D783A7 /* Onboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Onboard.modulemap; sourceTree = "<group>"; };
+		7C354FB9F00F19AAF83FF1342BE4562F /* Onboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Onboard-umbrella.h"; sourceTree = "<group>"; };
+		876D5C8C1C303DB92EF0C7B1020007E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A92268C7F95E46B3C2BB47523B2504 /* Onboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Onboard-prefix.pch"; sourceTree = "<group>"; };
+		A0550D800E96576B409635BE97830489 /* OnboardingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OnboardingViewController.h; path = Source/OnboardingViewController.h; sourceTree = "<group>"; };
+		AC924E0E4507A4223BE37BF6B7536280 /* Pods-tokenator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tokenator.release.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BEA63EA4C1AA6660099538D819F2483A /* Pods-tokenator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tokenator-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF261E9B59C4B6A5D9253B4DAD043939 /* Onboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Onboard-dummy.m"; sourceTree = "<group>"; };
+		C069D554638C2B2C9677377F246AB508 /* OnboardingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OnboardingViewController.m; path = Source/OnboardingViewController.m; sourceTree = "<group>"; };
+		C0E0152FCF49C3373A8351190216B264 /* Pods-tokenator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tokenator.debug.xcconfig"; sourceTree = "<group>"; };
+		C48B21F5EE39987A7D31F51251BA2D40 /* Pods-tokenator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tokenator-frameworks.sh"; sourceTree = "<group>"; };
+		CB5249471F762AEA19E24815D397CF1A /* Pods_tokenator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tokenator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B5D76BEB75C7DD3A96D6EF96F297B4 /* OnboardingContentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OnboardingContentViewController.h; path = Source/OnboardingContentViewController.h; sourceTree = "<group>"; };
+		EE6EDC212CDB9CBBCCDFC96A05E72DD2 /* Pods-tokenator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tokenator-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		427329835593AB54E796D1B03B829FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165244AE75779FAEAA05BF5A8F6CF526 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DACECD6C21162DEC1D55F4DD6214282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D625D72E0872596014E3194252E3852C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CE6458E4CDF89B5E9C834650E4C9735 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7118EFE009CCB377638241C7114D581D /* Pods-tokenator */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7118EFE009CCB377638241C7114D581D /* Pods-tokenator */ = {
+			isa = PBXGroup;
+			children = (
+				65129A8180AAE5E449FAD9E412E08641 /* Info.plist */,
+				32DC1AB3B52B217A09CE055CDA3EF485 /* Pods-tokenator.modulemap */,
+				EE6EDC212CDB9CBBCCDFC96A05E72DD2 /* Pods-tokenator-acknowledgements.markdown */,
+				BEA63EA4C1AA6660099538D819F2483A /* Pods-tokenator-acknowledgements.plist */,
+				5C638439AB77C5450C4D6F0EC7F9074D /* Pods-tokenator-dummy.m */,
+				C48B21F5EE39987A7D31F51251BA2D40 /* Pods-tokenator-frameworks.sh */,
+				5F1D91796EBA167B111D2D2169E628FD /* Pods-tokenator-resources.sh */,
+				1DC115D61B6D8685D320237A64917593 /* Pods-tokenator-umbrella.h */,
+				C0E0152FCF49C3373A8351190216B264 /* Pods-tokenator.debug.xcconfig */,
+				AC924E0E4507A4223BE37BF6B7536280 /* Pods-tokenator.release.xcconfig */,
+			);
+			name = "Pods-tokenator";
+			path = "Target Support Files/Pods-tokenator";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DE6F905A33365EF17E8B2FEA9402B46E /* Pods */,
+				955E7386965E8F6B1BCF0F4F3BA82B1F /* Products */,
+				0CE6458E4CDF89B5E9C834650E4C9735 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		955E7386965E8F6B1BCF0F4F3BA82B1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39C042038DA04F71E9772BDF27523404 /* Onboard.framework */,
+				CB5249471F762AEA19E24815D397CF1A /* Pods_tokenator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1F93FB67D427D90BA01C4DF69A1F477 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				D0B5D76BEB75C7DD3A96D6EF96F297B4 /* OnboardingContentViewController.h */,
+				30E21037237F144F058B3D22E9F5E145 /* OnboardingContentViewController.m */,
+				A0550D800E96576B409635BE97830489 /* OnboardingViewController.h */,
+				C069D554638C2B2C9677377F246AB508 /* OnboardingViewController.m */,
+				A46EFCE7A04F6333D17B5F4CA3F3EC09 /* Support Files */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		A46EFCE7A04F6333D17B5F4CA3F3EC09 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				876D5C8C1C303DB92EF0C7B1020007E3 /* Info.plist */,
+				667A9E3DDC5D4A8DD781464F59D783A7 /* Onboard.modulemap */,
+				54AF6164939E0265DB16E9474A884BCC /* Onboard.xcconfig */,
+				BF261E9B59C4B6A5D9253B4DAD043939 /* Onboard-dummy.m */,
+				89A92268C7F95E46B3C2BB47523B2504 /* Onboard-prefix.pch */,
+				7C354FB9F00F19AAF83FF1342BE4562F /* Onboard-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Onboard";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE6F905A33365EF17E8B2FEA9402B46E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1F93FB67D427D90BA01C4DF69A1F477 /* Onboard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20CE4FEB0091BDD973F2CD425777D72D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CAB6A267D1C5492BFF4BF29611E594 /* Pods-tokenator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8D1A1E3CD8E497AC51AF94060F1931 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E55107B59A92876B44B690F74B121E7 /* Onboard-umbrella.h in Headers */,
+				EF4066B0EEC6CF4D847A4C6810886BDA /* OnboardingContentViewController.h in Headers */,
+				45B28CDACD362CEF2CA6012BA0015DB6 /* OnboardingViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A1A7888E8964480450FDE427EC130D09 /* Pods-tokenator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0679011A69179C1AED5FB84A1EE3DF8 /* Build configuration list for PBXNativeTarget "Pods-tokenator" */;
+			buildPhases = (
+				5F77BD6A5F2F2868D66DA0E95BBFEF71 /* Sources */,
+				9DACECD6C21162DEC1D55F4DD6214282 /* Frameworks */,
+				20CE4FEB0091BDD973F2CD425777D72D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CF1125679D03E55DE0DC25A38560D42 /* PBXTargetDependency */,
+			);
+			name = "Pods-tokenator";
+			productName = "Pods-tokenator";
+			productReference = CB5249471F762AEA19E24815D397CF1A /* Pods_tokenator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7FF48F3092783E4E42B336F0DEF2D1A /* Onboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A984F75D7AF9321E9237A1F65995B44 /* Build configuration list for PBXNativeTarget "Onboard" */;
+			buildPhases = (
+				0B525EABCAC4BAEA6B73CF7A5C7EAFDF /* Sources */,
+				427329835593AB54E796D1B03B829FD3 /* Frameworks */,
+				DD8D1A1E3CD8E497AC51AF94060F1931 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Onboard;
+			productName = Onboard;
+			productReference = 39C042038DA04F71E9772BDF27523404 /* Onboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 955E7386965E8F6B1BCF0F4F3BA82B1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7FF48F3092783E4E42B336F0DEF2D1A /* Onboard */,
+				A1A7888E8964480450FDE427EC130D09 /* Pods-tokenator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B525EABCAC4BAEA6B73CF7A5C7EAFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68601DD8D1367CD635712B9FF4797A9A /* Onboard-dummy.m in Sources */,
+				C6E011EAC995523734C90C4B3362D037 /* OnboardingContentViewController.m in Sources */,
+				86BA959299BECF7B0314ECC08EC0614F /* OnboardingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F77BD6A5F2F2868D66DA0E95BBFEF71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494668CAA10B3CB681F1B1CC434076B3 /* Pods-tokenator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CF1125679D03E55DE0DC25A38560D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Onboard;
+			target = D7FF48F3092783E4E42B336F0DEF2D1A /* Onboard */;
+			targetProxy = C2D8284F967AFA0FC70E3B83EEB42864 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		016A26F9134ACFEF60D9DF08A8D77EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54AF6164939E0265DB16E9474A884BCC /* Onboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Onboard/Onboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Onboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Onboard/Onboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Onboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B66FB707FC11984AF890F5485D50100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0E0152FCF49C3373A8351190216B264 /* Pods-tokenator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-tokenator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tokenator/Pods-tokenator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_tokenator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2CE16AC72762C01C5DC595053F1F2EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D340F23F70A8CC502F61DC496303D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC924E0E4507A4223BE37BF6B7536280 /* Pods-tokenator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-tokenator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tokenator/Pods-tokenator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_tokenator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A71FF6ED3BA37FCEF019D1C5B75BFCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54AF6164939E0265DB16E9474A884BCC /* Onboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Onboard/Onboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Onboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Onboard/Onboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Onboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6544A1F1139551CE6C6C9B43404CFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A984F75D7AF9321E9237A1F65995B44 /* Build configuration list for PBXNativeTarget "Onboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016A26F9134ACFEF60D9DF08A8D77EFC /* Debug */,
+				A71FF6ED3BA37FCEF019D1C5B75BFCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE16AC72762C01C5DC595053F1F2EF4 /* Debug */,
+				C6544A1F1139551CE6C6C9B43404CFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0679011A69179C1AED5FB84A1EE3DF8 /* Build configuration list for PBXNativeTarget "Pods-tokenator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B66FB707FC11984AF890F5485D50100 /* Debug */,
+				5D340F23F70A8CC502F61DC496303D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
